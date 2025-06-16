@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: url('../pages/images/fondo.jpg');
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.eleccionMenu{
+
+}
+.eleccionMenu:hover{
+  transform: scale(1.1);
+}
+
+.titulo {
+  background-image: url('../pages/images/logoAE.png');
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  width: 50vh;
+  position: relative;
+  left: 35%;
+  margin-top: 5vh;
+}
+
+.xunta{
+  background-image: url('../pages/images/xunta.png');
+  background-size: cover;
+  background-position: center;
+  height: 5vh;
+  width: 70vh;
+  position: relative;
+  left: 32%;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.imgLinus{
+  background-image: url('../pages/images/linus1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+}
+.imgLinus:hover{
+  background-image: url('../pages/images/linus.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+  transform: scale(1.1);
+}
+
+.imgGabe{
+background-image: url('../pages/images/gabe1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+}
+.imgGabe:hover{
+  background-image: url('../pages/images/gabe.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+  transform: scale(1.1);
+}
+
+.imgChiqui{
+background-image: url('../pages/images/chiqui1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+}
+.imgChiqui:hover{
+  background-image: url('../pages/images/chiqui.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+  transform: scale(1.1);
+}
+
+.imgRecio{
+background-image: url('../pages/images/recio.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+}
+.imgRecio:hover{
+  background-image: url('../pages/images/recio1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+  transform: scale(1.1);
+}
+
+.imgEvil{
+background-image: url('../pages/images/escorpion1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+}
+.imgEvil:hover{
+  background-image: url('../pages/images/escorpion.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+  transform: scale(1.1);
+}
+
+
+
+.cursos{
+  background-color: white;
+  border-radius: 1vh;
+  text-align: center;
+  height: 35vh;
+  width: 30vh;
+  align-content: center;
+}
+.cursos:hover{
+  transform: scale(1.05);
+}
