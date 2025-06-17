@@ -19,9 +19,9 @@ export default function Home() {
               tabIndex={0}
               className="menu menu-xl dropdown-content bg-blue-500 border-white border-1 rounded-box z-1 mt-5 w-80 p-2 h-80 shadow">
               <li><a>PREINSCRIPCIÓN 25/26</a></li>
-              <li><a>Ciclos medios</a></li>
-              <li><a>Ciclos superiores</a></li>
-              <li><a>Másteres</a></li>
+              <li><a><u>Ciclos medios</u></a></li>
+              <li><a><u>Ciclos superiores</u></a></li>
+              <li><a><u>Másteres</u></a></li>
               <li><a>Profesorado</a></li>
               <li><a>Contacto</a></li>
             </ul>
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="navbar-end">
 
-          <button className="btn btn-info">
+          <button className="btn btn-warning hover:bg-white hover:text-blue-500">
             AULA VIRTUAL
           </button>
 
@@ -85,7 +85,7 @@ export default function Home() {
       <div className="h-100 mt-30 text-center bg-white text-blue-500">
 
         <div className="text-3xl mb-10">
-          <p>LOS MEJORES PROGRAMADORES SE FORMARON EN ESTE CENTRO</p>
+          <p><b>LOS MEJORES PROGRAMADORES SE FORMARON EN ESTE CENTRO</b></p>
         </div>
 
         <div className="flex gap-5 justify-evenly">
@@ -141,7 +141,7 @@ export default function Home() {
               <img className="robertoANHQV"/>
             </figure>
             <div className="card-body">
-              <h2 className="card-title justify-center ">Ruberto Astro</h2>
+              <h2 className="card-title justify-center ">Alberto Astro</h2>
               <p><b>Marcas</b>, <b>Entornos</b> y <b>Sistemas</b>.</p>
               <div className="card-actions justify-center">
               </div>
@@ -194,24 +194,7 @@ export default function Home() {
           <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500 hover:scale-105">
             <div className="collapse-title font-semibold">¿Merezco una subidita final?</div>
             <div className="collapse-content text-sm">
-              En verdad un poquillo sí va
-            </div>
-          </div>
-        </div>
-
-        <div className="flex justify-center mt-10">
-          <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500 hover:scale-105">
-            <div className="collapse-title font-semibold">¿Es necesario tener el título de Bachillerato para acceder a un Ciclo Superior?</div>
-            <div className="collapse-content text-sm">
-              No necesariamente. Puedes acceder a un Ciclo Formativo de Grado Superior (CFGS) con alguna de estas opciones:
-
-              <li>Título de Bachillerato.</li>
-
-              <li>Título de Técnico (Grado Medio).</li>
-
-              <li>Prueba de acceso para mayores de 19 años.</li>
-
-              <li>Prueba de acceso a la universidad para mayores de 25.</li>
+              En verdad un poquillo sí
             </div>
           </div>
         </div>
@@ -220,16 +203,39 @@ export default function Home() {
           <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500 hover:scale-105">
             <div className="collapse-title font-semibold">¿Qué biblioteca he utilizado?</div>
             <div className="collapse-content text-sm">
-              daisyUI
+              <b>daisyUI</b>. He fozado la documentación e implementé código directamente de la misma;
+              no sin antes comprenderlo, y una vez asimilados conceptos, modifiqué parámetros
+              para que se proyecte lo que quisiera.
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center mt-10">
+          <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500 hover:scale-105">
+            <div className="collapse-title font-semibold">¿Qué voy a trabajar en verano para afrontar 2ºDAM con más soltura?</div>
+            <div className="collapse-content text-sm">
+
+              <li><b>Typescript</b>: Me interesa bastante la forma de trabajar con él.</li>
+
+              <li><b>React Native</b>: Creo que va a venir muy bien para el proyecto final</li>
+
+              <li><b>Bicliotecas interesantes de Javascript</b></li>
+
+              <li><b>Tailwind</b>: Lo que llevo trabajado con este framework me atrae mucho más que el propio CSS</li>
             </div>
           </div>
         </div>
 
         <div className="flex justify-center mt-10">
           <div tabIndex={0} className="w-300 collapse collapse-arrow  bg-blue-500 hover:scale-105 ">
-            <div className="collapse-title font-semibold">¿Hay becas o ayudas para estudiantes en AulaStudio?</div>
+            <div className="collapse-title font-semibold">Lorem ipsum</div>
             <div className="collapse-content text-sm">
-              Sí, disponemos de becas propias y ayudamos a gestionar becas oficiales (como las del Ministerio de Educación). También ofrecemos planes de pago flexibles y descuentos por matrícula anticipada o familia numerosa.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
           </div>
         </div>
@@ -278,20 +284,12 @@ export default function Home() {
             <div className="flex justify-evenly gap-5">
               <div className="text-black m-5 content-center w-250">
                 <h3>Rompí 4 ventanas</h3>
-                <p>Un acueducto es una obra de ingeniería diseñada para 
-                  transportar agua desde un lugar de origen hasta un 
-                  punto de distribución, generalmente para abastecer 
-                  ciudades o regadíos. Estas estructuras pueden ser 
-                  subterráneas, superficiales o elevadas, utilizando 
-                  tuberías, canales o arcos de piedra. Los acueductos
-                  han sido fundamentales en el desarrollo de civilizaciones,
-                    como los romanos, quienes construyeron impresionantes
-                    sistemas que aún perduran. Su función es garantizar
-                      el suministro constante de agua, superando 
-                      obstáculos geográficos. Hoy, los acueductos 
-                      modernos emplean tecnología avanzada, pero el 
-                      principio sigue siendo el mismo: llevar agua 
-                      de manera eficiente a donde se necesita.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
               </div>
               <div className="m-5">
                 <img className="robertoANHQV mb-3"></img>
