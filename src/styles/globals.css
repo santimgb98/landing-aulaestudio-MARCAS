@@ -41,7 +41,7 @@ body {
   width: 50vh;
   position: relative;
   left: 35%;
-  margin-top: 5vh;
+  margin-top: 7vh;
 }
 
 .xunta{
@@ -129,7 +129,7 @@ background-image: url('../pages/images/recio.jpg');
 }
 
 .imgEvil{
-background-image: url('../pages/images/escorpion1.jpg');
+  background-image: url('../pages/images/escorpion1.jpg');
   background-size: cover;
   background-position: center;
   height: 20vh;
@@ -145,11 +145,43 @@ background-image: url('../pages/images/escorpion1.jpg');
   border-radius: 2vh;
   transform: scale(1.1);
 }
+.robertoANHQV{
+  background-image: url('../pages/images/robertoANHQV.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 1vh;
+}
+.juanCuesta{
+  background-image: url('../pages/images/juanCuesta.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 1vh;
+}
+.isabel{
+  background-image: url('../pages/images/isabel.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 1vh;
+}
+.emilio{
+  background-image: url('../pages/images/emilio.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 1vh;
+}
 
 
 
 .cursos{
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 1vh;
   text-align: center;
   height: 35vh;
@@ -158,6 +190,12 @@ background-image: url('../pages/images/escorpion1.jpg');
 }
 .cursos:hover{
   transform: scale(1.05);
+}
+
+
+h3{
+  font-size: large;
+  font-style:italic;
 }
 
 
