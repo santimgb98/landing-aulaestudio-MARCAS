@@ -26,9 +26,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.eleccionMenu{
 
-}
 .eleccionMenu:hover{
   transform: scale(1.1);
 }

@@ -99,7 +99,7 @@ export default function Home() {
 
       </div>
 
-      <div id="contacta" className=" w-210 mt-15 mx-auto h-180 content-center bg-blue-500 rounded-xl">
+      <div id="contacta" className=" w-210 mx-auto h-170 content-center bg-blue-500 rounded-xl">
 
         <p className="text-white text-4xl text-center"><b>CONTACTO</b></p>
         
@@ -133,10 +133,10 @@ export default function Home() {
 
       </div>
 
-      <div className="h-100 mt-30 content-center text-center">
+      <div className="h-100 mt-20 content-center text-center bg-blue-500 rounded-3xl m-5">
 
         <div className="flex justify-evenly text-black items-center">
-          <div className="card bg-orange-300 w-80 shadow-sm pt-5 hover:scale-105">
+          <div className="card bg-white w-70 shadow-sm pt-5 hover:scale-105">
             <figure>
               <img className="robertoANHQV"/>
             </figure>
@@ -148,7 +148,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="card bg-orange-300 w-80 shadow-sm pt-5 hover:scale-105">
+          <div className="card bg-white w-70 shadow-sm pt-5 hover:scale-105">
             <figure>
               <img className="emilio"/>
             </figure>
@@ -159,10 +159,10 @@ export default function Home() {
           </div>
 
           <div>
-            <h1 className="text-3xl mb-8 text-blue-500">PROFESORADO</h1>
+            <h1 className="text-3xl mb-8 text-white">PROFESORADO</h1>
           </div>
 
-          <div className="card bg-orange-300 w-80 shadow-sm pt-5 hover:scale-105">
+          <div className="card bg-white w-70 shadow-sm pt-5 hover:scale-105">
             <figure>
               <img className="isabel"/>
             </figure>
@@ -172,7 +172,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="card bg-orange-300 w-80 shadow-sm pt-5 hover:scale-105">
+          <div className="card bg-white w-70 shadow-sm pt-5 hover:scale-105">
             <figure>
               <img className="juanCuesta"/>
             </figure>
@@ -186,12 +186,12 @@ export default function Home() {
       </div>
 
 
-      <div className="h-90 bg-white content-center mt-30">
+      <div className="h-120 bg-white content-center m-30">
 
         <h1 className="text-blue-500 text-5xl text-center"><b>FAQ</b></h1>
 
-        <div className="flex justify-center mt-5">
-          <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500">
+        <div className="flex justify-center mt-15">
+          <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500 hover:scale-105">
             <div className="collapse-title font-semibold">¿Merezco una subidita final?</div>
             <div className="collapse-content text-sm">
               En verdad un poquillo sí va
@@ -199,8 +199,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center mt-5">
-          <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500">
+        <div className="flex justify-center mt-10">
+          <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500 hover:scale-105">
             <div className="collapse-title font-semibold">¿Es necesario tener el título de Bachillerato para acceder a un Ciclo Superior?</div>
             <div className="collapse-content text-sm">
               No necesariamente. Puedes acceder a un Ciclo Formativo de Grado Superior (CFGS) con alguna de estas opciones:
@@ -216,17 +216,17 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center mt-5">
-          <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500">
-            <div className="collapse-title font-semibold">¿Las clases en AulaStudio son presenciales, online o mixtas?</div>
+        <div className="flex justify-center mt-10">
+          <div tabIndex={0} className="w-300 collapse collapse-arrow bg-blue-500 hover:scale-105">
+            <div className="collapse-title font-semibold">¿Qué biblioteca he utilizado?</div>
             <div className="collapse-content text-sm">
-              Ofrecemos modalidad presencial, online (en tiempo real) y semipresencial, dependiendo del ciclo o máster. Además, contamos con un campus virtual con materiales interactivos y tutorías personalizadas.
+              daisyUI
             </div>
           </div>
         </div>
 
-        <div className="flex justify-center mt-5">
-          <div tabIndex={0} className="w-300 collapse collapse-arrow  bg-blue-500">
+        <div className="flex justify-center mt-10">
+          <div tabIndex={0} className="w-300 collapse collapse-arrow  bg-blue-500 hover:scale-105 ">
             <div className="collapse-title font-semibold">¿Hay becas o ayudas para estudiantes en AulaStudio?</div>
             <div className="collapse-content text-sm">
               Sí, disponemos de becas propias y ayudamos a gestionar becas oficiales (como las del Ministerio de Educación). También ofrecemos planes de pago flexibles y descuentos por matrícula anticipada o familia numerosa.
@@ -236,73 +236,101 @@ export default function Home() {
 
       </div>
 
-      <div className="h-220 mt-30 flex justify-center">
-        <div className="w-300">
-          <h1 className="text-5xl text-blue-500 text-center mb-5"><b>TESTIMONIOS</b></h1>
+      <div className="h-20 mt-30 flex justify-center">
+          <h1 className="text-5xl text-blue-500 text-center"><b>TESTIMONIOS</b></h1>
+      </div>
 
-          <div className="flex justify-evenly gap-5">
-            <div className="m-5">
-              <img className="juanCuesta mb-3"></img>
-              <p className="text-black text-center">Jacinto Veléz</p>
+      <div className="flex justify-center mb-20">
+        <div className="carousel w-400">
+
+          <div id="slide1" className="carousel-item relative w-full flex justify-center">
+            
+            <div className="flex justify-evenly gap-5">
+              <div className="m-5">
+                <img className="juanCuesta mb-3"></img>
+                <p className="text-black text-center">Jacinto Veléz</p>
+              </div>
+              <div className="text-black m-5 content-center w-250">
+                <h3>Muy satisfecho</h3>
+                <p>Estoy muy satisfecho con el curso de DAM 
+                  (Desarrollo de Aplicaciones Multiplataforma). 
+                  Aprendí a programar en Java, Android, SQL y más, 
+                  con profesores expertos y prácticas útiles. 
+                  Los proyectos me prepararon para el mundo laboral, 
+                  y ahora tengo habilidades demandadas. 
+                  La organización fue buena, aunque a veces faltaron 
+                  recursos técnicos. Lo recomiendo a quienes les 
+                  guste la programación y busquen una formación completa. 
+                  Gracias a DAM, conseguí un trabajo estable como desarrollador. 
+                  ¡Valió totalmente la pena!</p>
+              </div>
             </div>
-            <div className="text-black m-5 content-center w-250">
-              <h3>Muy satisfecho</h3>
-              <p>Estoy muy satisfecho con el curso de DAM 
-                (Desarrollo de Aplicaciones Multiplataforma). 
-                Aprendí a programar en Java, Android, SQL y más, 
-                con profesores expertos y prácticas útiles. 
-                Los proyectos me prepararon para el mundo laboral, 
-                y ahora tengo habilidades demandadas. 
-                La organización fue buena, aunque a veces faltaron 
-                recursos técnicos. Lo recomiendo a quienes les 
-                guste la programación y busquen una formación completa. 
-                Gracias a DAM, conseguí un trabajo estable como desarrollador. 
-                ¡Valió totalmente la pena!</p>
+
+            <div className="absolute left-5 right-5 top-1/2 flex justify-end">
+              <a href="#slide2" className="btn btn-warning text-white hover:bg-white hover:text-orange-500">❯</a>
+            </div>
+
+          </div>
+
+
+          <div id="slide2" className="carousel-item relative w-full flex justify-center">
+
+            <div className="flex justify-evenly gap-5">
+              <div className="text-black m-5 content-center w-250">
+                <h3>Rompí 4 ventanas</h3>
+                <p>Un acueducto es una obra de ingeniería diseñada para 
+                  transportar agua desde un lugar de origen hasta un 
+                  punto de distribución, generalmente para abastecer 
+                  ciudades o regadíos. Estas estructuras pueden ser 
+                  subterráneas, superficiales o elevadas, utilizando 
+                  tuberías, canales o arcos de piedra. Los acueductos
+                  han sido fundamentales en el desarrollo de civilizaciones,
+                    como los romanos, quienes construyeron impresionantes
+                    sistemas que aún perduran. Su función es garantizar
+                      el suministro constante de agua, superando 
+                      obstáculos geográficos. Hoy, los acueductos 
+                      modernos emplean tecnología avanzada, pero el 
+                      principio sigue siendo el mismo: llevar agua 
+                      de manera eficiente a donde se necesita.</p>
+              </div>
+              <div className="m-5">
+                <img className="robertoANHQV mb-3"></img>
+                <p className="text-black text-center">Luciano Núñez</p>
+              </div>
+            </div>
+
+            <div className="absolute left-5 right-5 top-1/2 flex justify-between">
+              <a href="#slide1" className="btn btn-warning text-white hover:bg-white hover:text-orange-500">❮</a>
+              <a href="#slide3" className="btn btn-warning text-white hover:bg-white hover:text-orange-500">❯</a>
             </div>
           </div>
 
-          <div className="flex justify-evenly gap-5">
-            <div className="text-black m-5 content-center w-250">
-              <h3>Rompí 4 ventanas</h3>
-              <p>Un acueducto es una obra de ingeniería diseñada para 
-                transportar agua desde un lugar de origen hasta un 
-                punto de distribución, generalmente para abastecer 
-                ciudades o regadíos. Estas estructuras pueden ser 
-                subterráneas, superficiales o elevadas, utilizando 
-                tuberías, canales o arcos de piedra. Los acueductos
-                 han sido fundamentales en el desarrollo de civilizaciones,
-                  como los romanos, quienes construyeron impresionantes
-                   sistemas que aún perduran. Su función es garantizar
-                    el suministro constante de agua, superando 
-                    obstáculos geográficos. Hoy, los acueductos 
-                    modernos emplean tecnología avanzada, pero el 
-                    principio sigue siendo el mismo: llevar agua 
-                    de manera eficiente a donde se necesita.</p>
-            </div>
-            <div className="m-5">
-              <img className="robertoANHQV mb-3"></img>
-              <p className="text-black text-center">Jacinto Veléz</p>
-            </div>
-          </div>
 
-          <div className="flex justify-evenly gap-5">
-            <div className="m-5">
-              <img className="emilio mb-3"></img>
-              <p className="text-black text-center">Jacinto Veléz</p>
+          <div id="slide3" className="carousel-item relative w-full flex justify-center">
+            
+            <div className="flex justify-evenly gap-5">
+              <div className="m-5">
+                <img className="emilio mb-3"></img>
+                <p className="text-black text-center">Eusebio Domínguez</p>
+              </div>
+              <div className="text-black m-5 content-center">
+                <h3>Estoy encerrado</h3>
+                <p>Llevo desde que empezó el curso escolar encerrado en el baño.
+                  Escribo por aquí por desesperación; ya casi no me queda papel 
+                  higiénico para comer, AYUDA
+                </p>
+              </div>
             </div>
-            <div className="text-black m-5 content-center">
-              <h3>Estoy encerrado</h3>
-              <p>Llevo desde que empezó el curso escolar encerrado en el baño.
-                Escribo por aquí por desesperación; ya casi no me queda papel 
-                higiénico para comer, AYUDA
-              </p>
-            </div>
-          </div>
-          
 
-          
+            <div className="absolute left-5 right-5 top-1/2 flex">
+              <a href="#slide2" className="btn btn-warning text-white hover:bg-white hover:text-orange-500">❮</a>
+            </div>
+
+          </div>
+        
         </div>
       </div>
+
 
       <footer className="footer sm:footer-horizontal footer-center bg-blue-500 text-base-content p-4">
         <aside>
