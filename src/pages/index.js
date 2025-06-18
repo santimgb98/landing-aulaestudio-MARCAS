@@ -73,7 +73,7 @@ export default function Home() {
         id="header"
         className="pt-10 h-180 md:h-250 bg-[url('../pages/images/fondo.jpg')]"
       >
-        <div className="bg-[url('../pages/images/logoAE.png')] mt-5 md:mt-none w-70 md:w-150 mx-auto bg-cover size-20 md:size-50"></div>
+        <div className="bg-[url('../pages/images/logoAE.png')] mt-10 w-70 md:w-150 mx-auto bg-cover size-20 md:size-50"></div>
 
         <h2 className="text-center mt-15 text-white">
           <p className="text-3xl md:text-5xl mt-3 mb-10 ml-10 mr-10 md:ml-20 md:mr-20">
@@ -103,8 +103,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:flex justify-evenly w-100 md:w-400 mt-15 mx-auto h-280 md:h-130 items-center bg-blue-500 rounded-xl">
-        <div class="bg-white w-60 text-center h-80 p-3 rounded-md mx-auto">
+      <div className="grid grid-cols-1 md:flex justify-evenly w-100 md:w-300 mt-15 mx-auto h-280 md:h-130 items-center bg-blue-500 rounded-xl">
+        <div class="bg-white md:w-60 w-70 text-center h-80 p-3 rounded-md mx-auto">
           <p className="text-black text-xl">Certificados Profesionales</p>
           <p className="text-black text-2xl m-10">CURSO AVANZADO DE REACT</p>
           <button class="btn btn-primary hover:bg-white hover:text-blue-800">
@@ -112,15 +112,15 @@ export default function Home() {
           </button>
         </div>
 
-        <div class="bg-white w-60 text-center h-80 p-3 rounded-md mx-auto">
+        <div class="bg-white md:w-60 w-70 text-center h-80 p-3 rounded-md mx-auto">
           <p className="text-black text-xl">Certificados Profesionales</p>
-          <p className="text-black text-2xl m-10">CURSO AVANZADO DE ANGULAR</p>
+          <p className="text-black text-2xl m-10">CURSO AVANZADO DE VUE</p>
           <button class="btn btn-secondary hover:bg-white hover:text-rose-600">
             SOLICITAR PLAZA
           </button>
         </div>
 
-        <div class="bg-white w-60 text-center h-80 p-3 rounded-md mx-auto">
+        <div class="bg-white md:w-60 w-70 text-center h-80 p-3 rounded-md mx-auto">
           <p className="text-black text-xl">Certificados Profesionales</p>
           <p className="text-black text-2xl m-10">CURSO AVANZADO DE EXCEL</p>
           <button class="btn text-white btn-accent hover:bg-white hover:text-emerald-400">
