@@ -26,15 +26,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.eleccionMenu:hover {
-  transform: scale(1.1);
+.nexa {
+  font-family: "Nexa", monospace;
 }
 
-.jetbrains-mono {
-  font-family: "JetBrains Bold", monospace;
-  font-optical-sizing: auto;
-  font-weight: 20;
-  font-style: normal;
+.eleccionMenu:hover {
+  transform: scale(1.1);
 }
 
 .xunta {

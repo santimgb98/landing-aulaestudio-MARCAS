@@ -6,7 +6,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-white" class="jetbrains-mono">
+    <div className="bg-white font-extrabold">
       <div className="fixed navbar bg-blue-500 shadow-sm z-1">
         <div className="navbar-start">
           <div className="dropdown">
@@ -71,7 +71,7 @@ export default function Home() {
 
       <div
         id="header"
-        className="pt-10 h-180 md:h-250 bg-[url('../pages/images/fondo.jpg')]"
+        className="pt-10 h-180 sm:h-170 md:h-200 bg-[url('../pages/images/fondo.jpg')]"
       >
         <div className="bg-[url('../pages/images/logoAE.png')] mt-10 w-70 md:w-150 mx-auto bg-cover size-20 md:size-50"></div>
 
@@ -103,8 +103,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:flex justify-evenly w-100 md:w-300 mt-15 mx-auto h-280 md:h-130 items-center bg-blue-500 rounded-xl">
-        <div class="bg-white md:w-60 w-70 text-center h-80 p-3 rounded-md mx-auto">
+      <div className="grid grid-cols-1 md:flex justify-evenly w-90 md:w-300 mt-15 mx-auto h-280 md:h-130 items-center bg-blue-500 rounded-xl">
+        <div class="bg-white md:w-60 w-70 text-center h-70 md:h-80 p-3 rounded-md mx-auto">
           <p className="text-black text-xl">Certificados Profesionales</p>
           <p className="text-black text-2xl m-10">CURSO AVANZADO DE REACT</p>
           <button class="btn btn-primary hover:bg-white hover:text-blue-800">
@@ -112,7 +112,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div class="bg-white md:w-60 w-70 text-center h-80 p-3 rounded-md mx-auto">
+        <div class="bg-white md:w-60 w-70 text-center h-70 md:h-80 p-3 rounded-md mx-auto">
           <p className="text-black text-xl">Certificados Profesionales</p>
           <p className="text-black text-2xl m-10">CURSO AVANZADO DE VUE</p>
           <button class="btn btn-secondary hover:bg-white hover:text-rose-600">
@@ -120,7 +120,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div class="bg-white md:w-60 w-70 text-center h-80 p-3 rounded-md mx-auto">
+        <div class="bg-white md:w-60 w-70 text-center h-70 md:h-80 p-3 rounded-md mx-auto">
           <p className="text-black text-xl">Certificados Profesionales</p>
           <p className="text-black text-2xl m-10">CURSO AVANZADO DE EXCEL</p>
           <button class="btn text-white btn-accent hover:bg-white hover:text-emerald-400">
@@ -146,13 +146,13 @@ export default function Home() {
 
       <div
         id="contacta"
-        className="w-100 md:w-210 mx-auto h-170 content-center bg-blue-500 rounded-xl"
+        className="w-90 sm:w-150 md:w-210 mx-auto h-170 content-center bg-blue-500 rounded-xl"
       >
         <p className="text-white text-4xl text-center">
           <b>CONTACTO</b>
         </p>
 
-        <select className="bg-white w-90 md:w-200 m-5 border-blue text-orange-400 select select-info">
+        <select className="bg-white w-80 sm:w-130 md:w-200 m-5 sm:m-5 border-blue text-orange-400 select select-info">
           <option disabled={true}>MOTIVO</option>
           <option>Consulta sobre ciclo medio</option>
           <option>Consulta sobre ciclo superior</option>
@@ -164,7 +164,7 @@ export default function Home() {
           <input
             placeholder="NOMBRE"
             className="bg-white text-left p-5 text-orange-400 text-l 
-            border-1 border-blue-300 rounded-md  w-90 md:w-200"
+            border-1 border-blue-300 rounded-md  w-80 sm:w-130 md:w-200"
           ></input>
         </div>
 
@@ -172,7 +172,7 @@ export default function Home() {
           <input
             placeholder="EMAIL"
             className="bg-white text-left p-5 text-orange-400 text-l 
-            border-1 border-blue-300 rounded-md  w-90 md:w-200 mt-5"
+            border-1 border-blue-300 rounded-md  w-80 sm:w-130 md:w-200 mt-5"
           ></input>
         </div>
 
@@ -180,7 +180,7 @@ export default function Home() {
           <input
             placeholder="TELÉFONO"
             className="bg-white text-left p-5 text-orange-400 text-l 
-            border-1 border-blue-300 rounded-md  w-90 md:w-200 mt-5"
+            border-1 border-blue-300 rounded-md  w-80 sm:w-130 md:w-200 mt-5"
           ></input>
         </div>
 
@@ -188,7 +188,7 @@ export default function Home() {
           <input
             placeholder="MENSAJE"
             className="bg-white text-left p-5 text-orange-400 text-l 
-            border-1 border-blue-300 rounded-md  w-90 md:w-200 h-40 mt-5"
+            border-1 border-blue-300 rounded-md  w-80 sm:w-130 md:w-200 h-40 mt-5"
           ></input>
         </div>
 
@@ -202,7 +202,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-140 md:h-100 bg-white content-center m-30">
+      <div className="h-140 md:h-130 bg-white content-center m-10">
         <h1 className="text-blue-500 text-5xl text-center">
           <b>FAQ</b>
         </h1>
@@ -307,7 +307,7 @@ export default function Home() {
               </div>
               <div className="text-black m-5 content-center w-250">
                 <h3>Muy satisfecho</h3>
-                <p className="md:w-full w-70">
+                <p className="md:w-full w-70 font-medium">
                   Estoy muy satisfecho con el curso de DAM (Desarrollo de
                   Aplicaciones Multiplataforma). Aprendí a programar en Java,
                   Android, SQL y más, con profesores expertos y prácticas
@@ -342,7 +342,7 @@ export default function Home() {
               </div>
               <div className="text-black m-5 content-center w-250">
                 <h3>Rompí 4 ventanas</h3>
-                <p className="md:w-full w-70">
+                <p className="md:w-full w-70 font-medium">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -382,7 +382,7 @@ export default function Home() {
               </div>
               <div className="text-black m-5 content-center">
                 <h3>Estoy encerrado</h3>
-                <p>
+                <p className="font-medium">
                   Llevo desde que empezó el curso escolar encerrado en el baño.
                   Escribo por aquí por desesperación; ya casi no me queda papel
                   higiénico para comer, AYUDA
