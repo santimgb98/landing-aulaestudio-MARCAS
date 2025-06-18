@@ -21,29 +21,24 @@
 }
 
 body {
-  background: url('../pages/images/fondo.jpg');
+  background: white;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.eleccionMenu:hover{
+.eleccionMenu:hover {
   transform: scale(1.1);
 }
 
-.titulo {
-  background-image: url('../pages/images/logoAE.png');
-  background-size: cover;
-  background-position: center;
-  height: 15vh;
-  width: 50vh;
-  position: relative;
-  left: 35%;
-  margin-top: 7vh;
+.jetbrains-mono {
+  font-family: "JetBrains Bold", monospace;
+  font-optical-sizing: auto;
+  font-weight: 20;
+  font-style: normal;
 }
 
-.xunta{
-  background-image: url('../pages/images/xunta.png');
+.xunta {
+  background-image: url("../pages/images/xunta.png");
   background-size: cover;
   background-position: center;
   height: 5vh;
@@ -54,34 +49,16 @@ body {
   margin-bottom: 15vh;
 }
 
-.imgLinus{
-  background-image: url('../pages/images/linus1.jpg');
+.imgLinus {
+  background-image: url("../pages/images/linus1.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
   width: 20vh;
   border-radius: 2vh;
 }
-.imgLinus:hover{
-  background-image: url('../pages/images/linus.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20vh;
-  width: 20vh;
-  border-radius: 2vh;
-  transform: scale(1.1);
-}
-
-.imgGabe{
-background-image: url('../pages/images/gabe1.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20vh;
-  width: 20vh;
-  border-radius: 2vh;
-}
-.imgGabe:hover{
-  background-image: url('../pages/images/gabe.jpg');
+.imgLinus:hover {
+  background-image: url("../pages/images/linus.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
@@ -90,34 +67,16 @@ background-image: url('../pages/images/gabe1.jpg');
   transform: scale(1.1);
 }
 
-.imgChiqui{
-background-image: url('../pages/images/chiqui1.jpg');
+.imgGabe {
+  background-image: url("../pages/images/gabe1.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
   width: 20vh;
   border-radius: 2vh;
 }
-.imgChiqui:hover{
-  background-image: url('../pages/images/chiqui.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20vh;
-  width: 20vh;
-  border-radius: 2vh;
-  transform: scale(1.1);
-}
-
-.imgRecio{
-background-image: url('../pages/images/recio.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 20vh;
-  width: 20vh;
-  border-radius: 2vh;
-}
-.imgRecio:hover{
-  background-image: url('../pages/images/recio1.jpg');
+.imgGabe:hover {
+  background-image: url("../pages/images/gabe.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
@@ -126,16 +85,16 @@ background-image: url('../pages/images/recio.jpg');
   transform: scale(1.1);
 }
 
-.imgEvil{
-  background-image: url('../pages/images/escorpion1.jpg');
+.imgChiqui {
+  background-image: url("../pages/images/chiqui1.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
   width: 20vh;
   border-radius: 2vh;
 }
-.imgEvil:hover{
-  background-image: url('../pages/images/escorpion.jpg');
+.imgChiqui:hover {
+  background-image: url("../pages/images/chiqui.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
@@ -143,32 +102,68 @@ background-image: url('../pages/images/recio.jpg');
   border-radius: 2vh;
   transform: scale(1.1);
 }
-.robertoANHQV{
-  background-image: url('../pages/images/robertoANHQV.jpg');
+
+.imgRecio {
+  background-image: url("../pages/images/recio.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+}
+.imgRecio:hover {
+  background-image: url("../pages/images/recio1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+  transform: scale(1.1);
+}
+
+.imgEvil {
+  background-image: url("../pages/images/escorpion1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+}
+.imgEvil:hover {
+  background-image: url("../pages/images/escorpion.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 2vh;
+  transform: scale(1.1);
+}
+.robertoANHQV {
+  background-image: url("../pages/images/robertoANHQV.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
   width: 20vh;
   border-radius: 1vh;
 }
-.juanCuesta{
-  background-image: url('../pages/images/juanCuesta.jpg');
+.juanCuesta {
+  background-image: url("../pages/images/juanCuesta.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
   width: 20vh;
   border-radius: 1vh;
 }
-.isabel{
-  background-image: url('../pages/images/isabel.jpg');
+.isabel {
+  background-image: url("../pages/images/isabel.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
   width: 20vh;
   border-radius: 1vh;
 }
-.emilio{
-  background-image: url('../pages/images/emilio.jpg');
+.emilio {
+  background-image: url("../pages/images/emilio.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
@@ -176,24 +171,7 @@ background-image: url('../pages/images/recio.jpg');
   border-radius: 1vh;
 }
 
-
-
-.cursos{
-  background-color: #ffffff;
-  border-radius: 1vh;
-  text-align: center;
-  height: 35vh;
-  width: 30vh;
-  align-content: center;
-}
-.cursos:hover{
-  transform: scale(1.05);
-}
-
-
-h3{
+h3 {
   font-size: large;
-  font-style:italic;
+  font-style: italic;
 }
-
-
